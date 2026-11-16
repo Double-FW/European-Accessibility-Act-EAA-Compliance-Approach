@@ -36,4 +36,9 @@ The recovered ATLF 1.1 file supports the result vocabulary and delivery controls
 
 ## Maintenance and rights
 
-Use the [remediation register](control/remediation-register.yaml), [validation report](control/validation-report.md) and [changelog](CHANGELOG.md). Store personal operational evidence in controlled systems, not this public-ready package. Sources retain their own rights and attribution. No repository-wide licence is selected; the owner must decide distribution terms before publication. No remote repository or external publication is created by this package.
+Use the [remediation register](control/remediation-register.yaml), [validation report](control/validation-report.md) and [changelog](CHANGELOG.md). Store personal operational evidence in controlled systems, not this public-ready package. Sources retain their own rights and attribution. This repository is distributed under the root [MIT licence](LICENSE), including its copyright and permission notices. Linked sources retain their own terms; the repository licence does not automatically relicense external material. Guide/workflow adoption and product-specific approvals remain separate from publication.
+
+
+## Hugging Face publication
+
+The [Hugging Face dataset](https://huggingface.co/datasets/GarethFW/European_Accessibility_Act_EAA_Compliance_Approach) is updated from approved committed sources. Follow the [complete setup guide](huggingface/SETUP.md) for token creation, saving the GitHub secret, running the first sync and verifying publication. Export excludes the combined historical RAG snapshot, the Annex planning matrix with known numbering limitations, checker code and synthetic fixtures. Publication does not recheck legal currency or establish product conformity.
