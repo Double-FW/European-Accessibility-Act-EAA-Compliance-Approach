@@ -246,7 +246,7 @@ findings:
   disposition: excluded_with_reason
   rationale: Rejected complaint/enforcement rhetoric is excluded from active instructions.
   output_locations:
-  - AGENTS.md#retrieve-and-preserve-sources
+  - AGENTS.md#sources-and-evidence
   source_ids:
   - A04
   - REVIEW
@@ -352,7 +352,7 @@ findings:
   disposition: excluded_with_reason
   rationale: Superseded EAA dataset excluded, preserved as source-status history only.
   output_locations:
-  - AGENTS.md#retrieve-and-preserve-sources
+  - AGENTS.md#sources-and-evidence
   source_ids:
   - REVIEW
   validation:
@@ -448,7 +448,7 @@ findings:
   rationale: Definitions/checker operate locally; orchestration, real pilot and operational approval remain
     separate.
   output_locations:
-  - AGENTS.md#change-and-readiness
+  - AGENTS.md#repository-changes-and-reporting
   source_ids:
   - D042
   - ATLF11

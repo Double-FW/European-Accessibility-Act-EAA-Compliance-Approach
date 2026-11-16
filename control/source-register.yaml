@@ -1,7 +1,9 @@
 schema_version: 1.0.0
 checked_on: '2026-11-01'
 attribution: Prepared for Double FW Ltd. Source authors and publishers retain their rights.
-licence_decision: No repository-wide licence selected. Owner decision needed before public distribution.
+licence_decision: This repository uses the root MIT LICENSE; linked sources retain their own terms.
+distribution_metadata_updated_on: '2026-11-16'
+private_source_reference_policy: Source identities, hashes and historical status are preserved; private access URLs are withheld. No public availability is implied.
 source_conflicts:
 - id: SC01
   issue: Report could not access ATLF and EAA guide.
@@ -37,7 +39,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: D036
@@ -50,7 +52,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: D039
@@ -63,7 +65,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Partial plan only; engine not installed/validated.
 - id: D042
@@ -76,7 +78,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: D045
@@ -89,7 +91,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Use corrected privacy/recording qualifications in G04.
 - id: D047
@@ -102,7 +104,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: No universal simultaneous notification rule.
 - id: D058
@@ -115,7 +117,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Separate four-level model; no implicit AI-maturity crosswalk.
 - id: D078
@@ -128,7 +130,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: D079
@@ -141,7 +143,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: D094
@@ -154,7 +156,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Use the extended local schema instead of copying approval gaps.
 - id: D100
@@ -167,7 +169,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: D101
@@ -180,7 +182,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: false
   constraint: Excluded executable severity defaults.
 - id: D104
@@ -193,7 +195,7 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Exclude universal timing tolerance bands.
 - id: D105
@@ -206,13 +208,13 @@ sources:
   verified_on: '2026-11-01'
   reviewed_scope: Relevant delivery, evidence, result or measurement sections; not validation of all linked
     claims.
-  rights: Double FW source; preserve source attribution/licence; no repository-wide licence selected.
+  rights: Double FW source; preserve its attribution and terms. This repository's MIT licence does not automatically relicense linked material.
   active_retrieval: true
   constraint: Method source; neither law nor a product-specific approval.
 - id: A01
   title: Accessibility Principles.docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_732dedf716148191a1d992b1da76ef41&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: a1df09f27fcd17c5a4d9a9cdafcb53d97a564cf5fda2851bc581068c064668f8
   status: rewritten_in_G02
@@ -224,7 +226,7 @@ sources:
 - id: A02
   title: EAA Annex 1 - WCAG Mapping.docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_526bcb94798c819185b8a8bd13f21b3e&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: 14bebd102ad593be5caf73c0fbe42ede9495c9317e45f7cd33429846fe924719
   status: replaced_by_scoped_mapping_method
@@ -236,7 +238,7 @@ sources:
 - id: A03
   title: EAA User Groups.docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_3d684f01d058819188dae5cbd1c53f44&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: 3d30f83058d030e4baa4d1e28d849683f4cd55b43c24e54ec6d44501be0ea2a6
   status: replaced_by_complete_lenses
@@ -248,7 +250,7 @@ sources:
 - id: A04
   title: European_Accessibility_Act_How_to_Respond(1).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_c64e9cd4f5608191b8fff629169e2095&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: a8b77351aa9ef520caa092de546e69af5ad720d732c159cd26867db5233d86d0
   status: commentary_only
@@ -260,7 +262,7 @@ sources:
 - id: A05
   title: EAA_Scope_and_Applicability_Gate(1).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_40a796f253dc81919d1be651568cb09f&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: e80ad44ed898f4ff0dedbe35d5f7dae42bcc31b32773634a43bfc08dda48916c
   status: preferred_remediated_base
@@ -272,7 +274,7 @@ sources:
 - id: A06
   title: EAA_Evidence_and_Conformity_Record_Model(1).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_f97ab3d63934819197958194779fb8c2&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: d25b2d1774c883295eb1767aeeb35f1e58b333ce53797de03a30dc6df0d7896c
   status: extended_in_G05
@@ -284,7 +286,7 @@ sources:
 - id: A07
   title: EAA_Scope_and_Applicability_Gate(2).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_2cf869c0c9608191adf0593b9cfbb246&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: 7af14a7847c86e014f0d83fa637fa853b06b1b2aa0ff40bfd8922229003a1d9d
   status: superseded_by_A05
@@ -296,7 +298,7 @@ sources:
 - id: A08
   title: EAA User Groups(1).docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_1876344017fc81919a86ac84d8599544&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: 3d30f83058d030e4baa4d1e28d849683f4cd55b43c24e54ec6d44501be0ea2a6
   status: duplicate_of_A03
@@ -308,7 +310,7 @@ sources:
 - id: A09
   title: EAA Annex 1 - WCAG Mapping(1).docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_1fa03a393bd88191863a553e020e9de6&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: original supplied bytes
   sha256: 14bebd102ad593be5caf73c0fbe42ede9495c9317e45f7cd33429846fe924719
   status: duplicate_of_A02
@@ -400,7 +402,7 @@ sources:
 - id: ATLF11
   title: Accessibility Test-Led Delivery Framework 1.1
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_d93592f0a83c819193949def825a56d0&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: 1.1 2026-09-20
   sha256: 1db4a85ff82de779d0866cb6cdfc9a00ceaf986f5e9a8f7abbef4074f1c0237e
   status: recovered_copy_reviewed
@@ -412,7 +414,7 @@ sources:
 - id: EAAG25
   title: Guide to the European Accessibility Act 2025
   authority_type: commentary
-  location: https://chatgpt.com/library?file_id=libfile_2664f26e8dec8191a1608034a25c995a&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: 1.0-semantic
   status: recovered_context_only
   verified_on: '2026-11-01'
@@ -434,7 +436,7 @@ sources:
 - id: REVIEW
   title: Stage 1 source review
   authority_type: remediation_specification
-  location: https://chatgpt.com/library?file_id=libfile_e6e623c0b7448191b0f8cd71615ad4bc&account_id=personal
+  location: Private user-supplied source; private access URL withheld from public distribution.
   source_version: 1.0 2026-11-01
   status: reviewed
   verified_on: '2026-11-01'
