@@ -1,14 +1,14 @@
 ---
 title: "European Accessibility Act — complete repository RAG reference"
 prepared: "2026-11-08"
-updated: "2026-11-11"
+updated: "2026-11-20"
 language: "en-GB"
 document_type: "standalone_markdown_rag_reference"
 source_repository: "https://github.com/Double-FW/European-Accessibility-Act-EAA-"
 source_commit: "3545319962c0336163f5fbab1942ee5aefd878a2"
 source_file_count: 26
 source_original_utf8_bytes: 335004
-status: "complete_repository_snapshot_with_editorial_navigation"
+status: "historical_reference_with_disclosed_public_locator_edits"
 legal_verification_scope: "limited Directive source check; not comprehensive national-law or standards-citation verification"
 ---
 
@@ -16,11 +16,17 @@ legal_verification_scope: "limited Directive source check; not comprehensive nat
 
 ## Scope and source authority
 
-This standalone Markdown document consolidates the complete text of all **26 tracked files** in the inspected European Accessibility Act repository. It includes the plain-English guide, six practitioner guides, Annex planning matrix, source and standards registers, remediation/validation context, record and workflow schemas, templates, checker code and synthetic examples. No source body is abridged. There is no accompanying resource folder, newly authored activity guide or separate prompt library.
+This standalone Markdown document consolidates the historical source bodies from **26 tracked files** in the inspected European Accessibility Act snapshot, subject to the public-locator and navigation edits disclosed below. It includes the plain-English guide, six practitioner guides, Annex planning matrix, source and standards registers, remediation/validation context, record and workflow schemas, templates, checker code and synthetic examples. No substantive guidance is abridged; twelve private source locators and one unavailable history link have the explicit public-view treatments described below. There is no accompanying resource folder, newly authored activity guide or separate prompt library.
 
 The repository is a guidance and evidence-development resource. Its six-guide operating package identifies itself as draft for organisational adoption. Its schemas, workflow definitions and deterministic checker are actual repository artefacts, but do not by themselves create a deployed regulatory agent, tool integration, authorised process or product conformity assessment.
 
 Applicable primary law and national implementing measures govern legal decisions. The repository’s explanatory guidance, proposed web baseline, technical mappings, research methods, synthetic cases and validation results have different evidential roles. Preserve their stated source date, authority, scope, adoption status and limitations. This compilation’s preparation date does not make every source claim current on that date.
+
+## Public-reference maintenance on 20 November 2026
+
+Twelve account-specific Library locations in the embedded historical source register have been replaced with an explicit private-source availability statement. Source IDs, titles, original hashes, review dates, dispositions and active-retrieval flags are retained; no unseen source is reconstructed or represented as publicly available. The historical snapshot's unavailable CHANGELOG.md link is replaced by an availability note and a link to its actual commit record.
+
+The inventory and original source hashes identify historical input bytes before these disclosed public-view edits and the original navigation transformations. They are not hashes of the edited compiled bodies. Earlier versions remain in Git history. This archive remains excluded from the current Hugging Face dataset; this maintenance does not reactivate its historical claims, relicense original sources or establish a new legal/source review.
 
 ## Retrieval and interpretation rules
 
@@ -1849,7 +1855,7 @@ The recovered ATLF 1.1 file supports the result vocabulary and delivery controls
 
 ## Maintenance and rights
 
-Use the [remediation register](https://github.com/Double-FW/European-Accessibility-Act-EAA-/blob/3545319962c0336163f5fbab1942ee5aefd878a2/control/remediation-register.yaml), [validation report](https://github.com/Double-FW/European-Accessibility-Act-EAA-/blob/3545319962c0336163f5fbab1942ee5aefd878a2/control/validation-report.md) and [changelog](https://github.com/Double-FW/European-Accessibility-Act-EAA-/blob/3545319962c0336163f5fbab1942ee5aefd878a2/CHANGELOG.md). Store personal operational evidence in controlled systems, not this public-ready package. Sources retain their own rights and attribution. No repository-wide licence is selected; the owner must decide distribution terms before publication. No remote repository or external publication is created by this package.
+Use the [remediation register](https://github.com/Double-FW/European-Accessibility-Act-EAA-/blob/3545319962c0336163f5fbab1942ee5aefd878a2/control/remediation-register.yaml), [validation report](https://github.com/Double-FW/European-Accessibility-Act-EAA-/blob/3545319962c0336163f5fbab1942ee5aefd878a2/control/validation-report.md) and historical change context (the cited snapshot did not contain CHANGELOG.md; see its [commit record](https://github.com/Double-FW/European-Accessibility-Act-EAA-Compliance-Approach/commit/3545319962c0336163f5fbab1942ee5aefd878a2)). Store personal operational evidence in controlled systems, not this public-ready package. Sources retain their own rights and attribution. No repository-wide licence is selected; the owner must decide distribution terms before publication. No remote repository or external publication is created by this package.
 
 
 ---
@@ -2476,7 +2482,7 @@ sources:
 - id: A01
   title: Accessibility Principles.docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_732dedf716148191a1d992b1da76ef41&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: a1df09f27fcd17c5a4d9a9cdafcb53d97a564cf5fda2851bc581068c064668f8
   status: rewritten_in_G02
@@ -2488,7 +2494,7 @@ sources:
 - id: A02
   title: EAA Annex 1 - WCAG Mapping.docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_526bcb94798c819185b8a8bd13f21b3e&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: 14bebd102ad593be5caf73c0fbe42ede9495c9317e45f7cd33429846fe924719
   status: replaced_by_scoped_mapping_method
@@ -2500,7 +2506,7 @@ sources:
 - id: A03
   title: EAA User Groups.docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_3d684f01d058819188dae5cbd1c53f44&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: 3d30f83058d030e4baa4d1e28d849683f4cd55b43c24e54ec6d44501be0ea2a6
   status: replaced_by_complete_lenses
@@ -2512,7 +2518,7 @@ sources:
 - id: A04
   title: European_Accessibility_Act_How_to_Respond(1).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_c64e9cd4f5608191b8fff629169e2095&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: a8b77351aa9ef520caa092de546e69af5ad720d732c159cd26867db5233d86d0
   status: commentary_only
@@ -2524,7 +2530,7 @@ sources:
 - id: A05
   title: EAA_Scope_and_Applicability_Gate(1).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_40a796f253dc81919d1be651568cb09f&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: e80ad44ed898f4ff0dedbe35d5f7dae42bcc31b32773634a43bfc08dda48916c
   status: preferred_remediated_base
@@ -2536,7 +2542,7 @@ sources:
 - id: A06
   title: EAA_Evidence_and_Conformity_Record_Model(1).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_f97ab3d63934819197958194779fb8c2&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: d25b2d1774c883295eb1767aeeb35f1e58b333ce53797de03a30dc6df0d7896c
   status: extended_in_G05
@@ -2548,7 +2554,7 @@ sources:
 - id: A07
   title: EAA_Scope_and_Applicability_Gate(2).md
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_2cf869c0c9608191adf0593b9cfbb246&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: 7af14a7847c86e014f0d83fa637fa853b06b1b2aa0ff40bfd8922229003a1d9d
   status: superseded_by_A05
@@ -2560,7 +2566,7 @@ sources:
 - id: A08
   title: EAA User Groups(1).docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_1876344017fc81919a86ac84d8599544&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: 3d30f83058d030e4baa4d1e28d849683f4cd55b43c24e54ec6d44501be0ea2a6
   status: duplicate_of_A03
@@ -2572,7 +2578,7 @@ sources:
 - id: A09
   title: EAA Annex 1 - WCAG Mapping(1).docx
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_1fa03a393bd88191863a553e020e9de6&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: original supplied bytes
   sha256: 14bebd102ad593be5caf73c0fbe42ede9495c9317e45f7cd33429846fe924719
   status: duplicate_of_A02
@@ -2664,7 +2670,7 @@ sources:
 - id: ATLF11
   title: Accessibility Test-Led Delivery Framework 1.1
   authority_type: practitioner_guidance
-  location: https://chatgpt.com/library?file_id=libfile_d93592f0a83c819193949def825a56d0&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: 1.1 2026-09-20
   sha256: 1db4a85ff82de779d0866cb6cdfc9a00ceaf986f5e9a8f7abbef4074f1c0237e
   status: recovered_copy_reviewed
@@ -2676,7 +2682,7 @@ sources:
 - id: EAAG25
   title: Guide to the European Accessibility Act 2025
   authority_type: commentary
-  location: https://chatgpt.com/library?file_id=libfile_2664f26e8dec8191a1608034a25c995a&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: 1.0-semantic
   status: recovered_context_only
   verified_on: '2026-11-01'
@@ -2698,7 +2704,7 @@ sources:
 - id: REVIEW
   title: Stage 1 source review
   authority_type: remediation_specification
-  location: https://chatgpt.com/library?file_id=libfile_e6e623c0b7448191b0f8cd71615ad4bc&account_id=personal
+  location: "Supplied privately; no public source location provided"
   source_version: 1.0 2026-11-01
   status: reviewed
   verified_on: '2026-11-01'
