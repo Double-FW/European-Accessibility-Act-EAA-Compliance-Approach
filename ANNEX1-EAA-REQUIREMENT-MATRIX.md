@@ -1,51 +1,98 @@
 # EAA Annex I requirement support matrix
 
-This matrix is a repository-level planning aid for the `Double-FW/EAA-Compliance` operating model. It links each EAA Annex I requirement family to a relevant repository in the Double-FW ecosystem that can support delivery, governance, evidence collection, and evaluation. It is not a legal conclusion or a national adapter; it is a working evidence map to be reviewed against the actual service, product scope, jurisdiction, implemented baseline, and approved organisation policy.
+## Purpose and authority
 
-## Legend
+This matrix routes Annex I requirements to relevant public Double-FW guidance and evidence workflows. It is a planning aid, not a complete legal interpretation, technical test catalogue, applicability decision, or conformity statement.
 
-- Ref: stable internal requirement reference
-- Annex I area: requirement family derived from the EAA Annex I / WCAG mapping structure used by the EAA practice guides
-- Primary repo: repository most directly enabling delivery or evaluation for that area
-- Supporting repos: additional repositories that help with management, evidence, or delivery controls
-- Prompt: concise operating prompt to use with the relevant Double-FW repositories
+Use the [official Directive (EU) 2019/882](https://eur-lex.europa.eu/eli/dir/2019/882/oj), especially Articles 2 and 4 and Annex I, as the legal source. Confirm the service or product scope, responsible economic operator, applicable national transposition, exemptions, exceptions and any permitted alternative route with the authorised reviewer. The Directive’s requirements depend on the subject and route; do not assume that every Annex I section applies to every product or service.
 
-| Ref | Annex I area | Primary repo | Supporting repos | Prompt |
-| --- | --- | --- | --- | --- |
-| EAA-A1-REF-01 | 1.1 Text alternatives | `Double-FW/Inclusive_and_Effective_Design` | `Double-FW/Phased-Approach-to-integrating-Accessibility-into-QA` | "Using the Inclusive and Effective Design and QA accessibility repositories, identify the user need, the relevant content alternatives, the delivery owners, and the evidence required to verify text alternatives for EAA Annex I 1.1. Produce a requirement record, a test plan, and any evidence gaps or remediation priorities for the product/service." |
-| EAA-A1-REF-02 | 1.2 Time-based media | `Double-FW/Phased-Approach-to-integrating-Accessibility-into-QA` | `Double-FW/Inclusive_and_Effective_Design`, `Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems` | "Review the time-based media experience using the QA and task-analysis repositories. Identify the media flows, captions, audio descriptions, and alternative access paths. Produce a delivery checklist, testing method, and evidence pack showing how the service meets the EAA Annex I 1.2 requirement." |
-| EAA-A1-REF-03 | 1.3 Adaptable content | `Double-FW/POUR-for-Branding-Systems-and-CX` | `Double-FW/Cognitive-UX-Design`, `Double-FW/Inclusive_and_Effective_Design` | "Using the POUR-for-Branding-Systems and design repositories, map the information structure, presentation, and content adaptation needs for the product. Record how content remains understandable across devices, layouts, and assistive technologies, then list the delivery and evidence actions needed for EAA Annex I 1.3." |
-| EAA-A1-REF-04 | 1.4 Distinguishable information | `Double-FW/POUR-for-Branding-Systems-and-CX` | `Double-FW/Cognitive-UX-Design`, `Double-FW/Inclusive_and_Effective_Design` | "Using the branding and cognitive design repositories, assess contrast, focus visibility, text legibility, and state communication. Produce a design decision log, evidence list, and evaluation notes showing whether users can distinguish content and interactions under EAA Annex I 1.4." |
-| EAA-A1-REF-05 | 2.1 Keyboard accessibility | `Double-FW/Phased-Approach-to-integrating-Accessibility-into-QA` | `Double-FW/Managing-Embedded-Accessibility-and-Inclusive-Design`, `Double-FW/Inclusive_and_Effective_Design` | "Using the QA and embedded design repositories, map all critical user flows to keyboard and focus management requirements. Produce a task-based test plan, a delivery checklist, and evidence for keyboard operability under EAA Annex I 2.1." |
-| EAA-A1-REF-06 | 2.2 Enough time and pauses | `Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems` | `Double-FW/Inclusive_and_Effective_Design`, `Double-FW/Phased-Approach-to-integrating-Accessibility-into-QA` | "Using task-analysis and QA repositories, evaluate whether the service provides sufficient time, pauses, and user control for time-sensitive tasks. Capture user journeys, fairness risk, and evidence needed to show conformance with EAA Annex I 2.2." |
-| EAA-A1-REF-07 | 2.3 Seizures and physical reactions | `Double-FW/AI-Accessibility-Maturity-Model` | `Double-FW/Managing-Embedded-Accessibility-and-Inclusive-Design`, `Double-FW/Inclusive_and_Effective_Design` | "Assess the service for flashing, motion, and sensory triggers using the AI accessibility maturity and design guidance repositories. Identify risk, required controls, and evidence for managing harmful visual and interaction patterns required by EAA Annex I 2.3." |
-| EAA-A1-REF-08 | 2.4 Navigable and findable | `Double-FW/Managing-Embedded-Accessibility-and-Inclusive-Design` | `Double-FW/Inclusive_and_Effective_Design`, `Double-FW/Organisation_Governance_and_Strategy` | "Using the embedded design and organisational governance repositories, review navigation, landmarks, headings, and findability. Produce a management and delivery plan that demonstrates navigability, ownership, and evidence for EAA Annex I 2.4." |
-| EAA-A1-REF-09 | 2.5 Input modalities | `Double-FW/Inclusive_and_Effective_Design` | `Double-FW/Cognitive-UX-Design`, `Double-FW/Phased-Approach-to-integrating-Accessibility-into-QA` | "Assess how users can complete tasks across input modes, including pointer, keyboard, touch, voice, and alternative interaction patterns. Use the inclusive design and QA repositories to record evidence, acceptance criteria, and any accessibility gaps for EAA Annex I 2.5." |
-| EAA-A1-REF-10 | 3.1 Readable and understandable language | `Double-FW/Cognitive-UX-Design` | `Double-FW/Inclusive_and_Effective_Design`, `Double-FW/POUR-for-Branding-Systems-and-CX` | "Using the cognitive design and inclusive design repositories, assess readability, language clarity, and user comprehension. Produce a content review, evaluation plan, and evidence record showing how the product supports EAA Annex I 3.1 readability and understandability." |
-| EAA-A1-REF-11 | 3.2 Predictable behaviour and operation | `Double-FW/Managing-Embedded-Accessibility-and-Inclusive-Design` | `Double-FW/Cognitive-UX-Design`, `Double-FW/Inclusion-and-Accessibility-Policy` | "Review the product for consistency, predictable changes, and clear interaction patterns. Use the embedded design and policy repositories to document decision ownership, user risk, and evidence for preventing confusion under EAA Annex I 3.2." |
-| EAA-A1-REF-12 | 3.3 Input assistance | `Double-FW/Data_Ethics_and_Disability` | `Double-FW/Cognitive-UX-Design`, `Double-FW/Inclusive_and_Effective_Design` | "Using the disability data ethics and cognitive design repositories, assess error prevention, feedback quality, labels, and support mechanisms. Produce evidence and operational guidance for input assistance and recovery under EAA Annex I 3.3." |
-| EAA-A1-REF-13 | 4.1 Compatible with assistive technologies and systems | `Double-FW/Phased-Approach-to-integrating-Accessibility-into-QA` | `Double-FW/Managing-Embedded-Accessibility-and-Inclusive-Design`, `Double-FW/Executive-and-Organisational-Commitments` | "Using the QA and governance repositories, evaluate compatibility with assistive technologies, APIs, browsers, and support tooling. Produce a conformance review, release evidence, and risk register for EAA Annex I 4.1 compatibility claims." |
+The linked [EAA Annex I training dataset in Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/EAA%20Annex%201%20%E2%80%94%20Training%20Dataset%20%28Websites%20%26%20Online%20Applications%29.md) is explicitly marked **superseded**. It is a migration notice, not current guidance or a source for extracting legal requirements. Use the repository’s current [Inclusive Digital Service Outcome Dataset](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/Inclusive_Digital_Service_Outcome_Dataset.md) for the Double-FW Layer 2 outcome model.
 
-## Repository prompt pack
+## Legal routing through Annex I
 
-The following prompt pack can be used as a reusable operating pattern across the Double-FW repositories for management, delivery, and evaluation:
+Article 4 determines which Annex I sections apply, subject to the Directive’s scope and qualifications. In broad terms, products route to Sections I and, except self-service terminals, II; covered services route to Sections III and IV, subject to the Directive’s provisions; answering 112 emergency communications has the specific Section V route. Section VII contains functional performance criteria with its own conditions. This summary is a navigation aid; use the Directive and applicable national law for the actual decision.
 
-1. Management prompt
-   - "Using the relevant Double-FW repositories for governance, design, and policy, identify the accountable owner, the delivery scope, the acceptance conditions, and the evidence needed for the EAA Annex I requirement being assessed. Record assumptions, limitations, and unresolved gaps before any public claim is prepared."
+| Internal reference | Annex I location | Requirement area | Routing note |
+| --- | --- | --- | --- |
+| A1-I | Section I | General requirements for products | Apply to products within Article 2(1), subject to the Directive. |
+| A1-II | Section II | Additional product requirements | Apply to products other than self-service terminals, subject to the Directive. |
+| A1-III-a | Section III(a) | Accessibility of products used to provide a service | Assess relevant products under Section I and, where applicable, Section II. |
+| A1-III-b | Section III(b)(i–vii) | Information about the service, related products, accessibility characteristics and interoperability | Assess the required information channels, format, understandability, perception, text availability, typography, non-text alternatives and POUR properties in context. |
+| A1-III-c | Section III(c) | Websites, related online applications and mobile-device-based services | Assess the in-scope web and mobile service consistently against the legal wording and selected technical assessment profile. |
+| A1-III-d | Section III(d) | Available support services | Assess accessible communication modes and information about service accessibility and assistive-technology compatibility where support services are available. |
+| A1-IV-a | Section IV(a) | Electronic communications services, including specified emergency communications | Check real-time text, total conversation where video accompanies voice, and required synchronisation and routing. |
+| A1-IV-b | Section IV(b) | Services providing access to audiovisual media services | Check EPG accessibility and accessibility-component transmission, quality, synchronisation and user control. EAA coverage of access services does not make this a general media-production or AVMSD assessment. |
+| A1-IV-c | Section IV(c) | Specified air, bus, rail and waterborne passenger transport services | Check accessibility, assistance, ticketing, real-time travel and other service information. The stated urban, suburban and regional transport exclusions matter. |
+| A1-IV-d | Section IV(d) | Urban, suburban and regional transport services | The specified requirement concerns accessibility of self-service terminals under Section I. Do not generalise it to all digital transport interfaces. |
+| A1-IV-e | Section IV(e) | Consumer banking services | Check accessible identification, electronic signatures, security and payment, and the specific information-complexity condition. |
+| A1-IV-f | Section IV(f) | E-books | Check synchronised text/audio where present, AT operation, content and navigation access, structure, presentation choice, alternative renditions, discoverability metadata and DRM effects. |
+| A1-IV-g | Section IV(g) | E-commerce services | Check accessibility information where supplied by the responsible operator and accessible identification, security, signature and payment functions as specified. |
+| A1-V | Section V | Answering 112 emergency communications | Apply the specific Section V requirements through the national emergency-system organisation and competent authority. |
+| A1-VII | Section VII | Functional performance criteria | Use only under the conditions in Section VII. It is not a general substitute checklist or an automatic alternative to a specific technical requirement. |
 
-2. Delivery prompt
-   - "Using the relevant Double-FW repositories for implementation, QA, and design, map the requirement to the product features, user flows, and evidence checkpoints. Identify required design decisions, engineering controls, and acceptance evidence for release readiness."
+Annex III built-environment requirements are a separate route: Article 4(4) allows Member States to decide whether specified built environments used by clients of covered services must meet them. Annex II contains indicative, non-binding examples of possible solutions; it is not itself a list of binding requirements.
 
-3. Evaluation prompt
-   - "Using the relevant Double-FW repositories for QA, task analysis, and customer outcomes, evaluate whether the implemented experience meets the requirement. Capture tested scenarios, negative evidence, remaining gaps, and the exact evidence required to support an operational conclusion."
+## Section VII functional performance criteria
 
-## Working notes
+Section VII addresses functions not covered by Sections I–VI and also sets conditions for using a functional performance criterion as an alternative to a specific technical requirement. Do not invoke it to waive a requirement by assertion. Record the exact function, clause, legal route, evidence and authorised decision; demonstrate the result required by the Directive for foreseeable use.
 
-- This matrix is intentionally scoped as a planning and evidence-routing tool for the repository and should be checked against the local jurisdiction, national implementation status, baseline documentation, and approved organisational policy before use in a formal legal or public-facing claim.
-- Where a requirement is not directly covered by a single repository, the supporting repo list provides the operational bridge between design, delivery, governance, and evidence review.
-- Evidence, outcome, and claim records should remain separate, as required by the EAA-Compliance repository contract and the record model.
+The criteria address: use without vision; use with limited vision; use without perception of colour; use without hearing; use with limited hearing; use without vocal capability; use with limited manipulation or strength; use with limited reach; minimising photosensitive seizure risk; use with limited cognition; and privacy.
 
-## Reference list
+These are criteria in the Directive, not a complete taxonomy of disability or a set of Double-FW personas. For research or design planning, use voluntary, task-relevant needs questions and preserve the limits described in the EAA repository’s [customer outcomes and research guide](guides/04-customer-outcomes-and-research.md).
 
-- `EAA-A1-REF-01` to `EAA-A1-REF-13` are internal matrix references for the requirement families above.
-- Source grounding for repository mapping comes from the source register and document index in this repository, with suitable caution around legal status, evidence limits, and draft guidance status.
+## Double-FW outcome and terminology alignment
+
+The Double-FW [Inclusive Digital Service Outcome Dataset (IDSO)](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/Inclusive_Digital_Service_Outcome_Dataset.md) is an organisational design and research framework, not legislation or a technical standard. Use relevant IDSO outcomes to plan and interpret functional, task and experience evidence; do not relabel them as EAA clauses or treat a positive outcome as proof of legal conformity.
+
+| Annex I route | Relevant Double-FW guidance | Use and boundary |
+| --- | --- | --- |
+| Sections I–IV and VII: identify needs, tasks and outcomes | [Inclusive Digital Service Outcome Dataset](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/Inclusive_Digital_Service_Outcome_Dataset.md) | Select material outcomes with rationale. Preserve outcome IDs, context, population, method, limitations and uncertainty. |
+| Section III(b–d), IV and VII: communication, modality, structure and cognition | [Inclusive Multimodal UX](https://github.com/Double-FW/Inclusive-Multimodal-UX) · [Cognitive UX Design](https://github.com/Double-FW/Cognitive-UX-Design) | Inform design and evaluation. Guidance does not itself establish that a service meets a clause. |
+| Section IV(b): media access services and connected controls | [Inclusive Media Interfaces](https://github.com/Double-FW/Inclusive-Media-Interfaces) · [AVMSD delivery and evidence repository](https://github.com/Double-FW/The-Audiovisual-Media-Services-Directive-AVMSD-) | Use media-interface guidance for discovery and control; use the AVMSD source for its separate regulatory route. Do not conflate the two legal regimes. |
+| Technical requirements, test planning and evidence | [QA Accessibility Testing](https://github.com/Double-FW/QA_Accessibility_Testing) | Use its canonical sources and selected standards mappings. A mapping, automated result or test count alone does not establish full legal coverage. |
+| Terminology and interpretation status | [Double-FW Terminology and Principles](https://github.com/Double-FW/Terminology-and-Principles), starting with [Start Here](https://github.com/Double-FW/Terminology-and-Principles/blob/main/START_HERE.md) | Preserve originating authority and entry status. Proposed or unresolved terms are not automatically adopted definitions. |
+
+All Double-FW destinations listed above were checked as public repositories during this update. Follow each repository’s own source hierarchy and authority notes.
+
+## Technical mapping is a separate layer
+
+The previous version used WCAG-style topic numbers (1.1–4.1) as if they were Annex I clause numbers. That was inaccurate and has been corrected. The topic labels below are useful technical-assessment routes only; they are not Annex I references and do not establish one-to-one equivalence with an Annex I requirement.
+
+| Technical topic family | Possible Annex I relationship | Required qualification |
+| --- | --- | --- |
+| Text alternatives; time-based media | Section III(b), III(c), and where applicable IV(b), IV(f) | Identify the actual information, service function and applicable specific-service clause. |
+| Adaptable and distinguishable content | Section III(b–c), and relevant product clauses | Map the chosen technical baseline and assessed functions; do not treat a WCAG topic number as the legal clause. |
+| Keyboard access; timing and pauses; seizure and physical-reaction risks; navigation; input modalities | Section III(c), relevant Sections I–II or IV, and potentially VII | Confirm the service or product, user task, technical baseline, specialist scope and evidence. |
+| Readable language; predictable operation; input assistance | Section III(b–c), relevant Sections I–II or IV, and potentially VII | Check the actual legal wording and any specific conditions, including banking information complexity where applicable. |
+| Compatibility with assistive technologies and systems | Section III(a–d), relevant Sections I–II or IV | Assess the applicable product, information, interface, support and interoperability requirements; do not infer compatibility from code quality alone. |
+
+A WCAG criterion or EN 301 549 provision may support assessment of an Annex I requirement when the relationship is established for the applicable scope and baseline. Record the exact source/version, clause, relationship type, coverage limits, assessment method and evidence. Do not assume that shared terminology or numbering proves equivalence. The [requirements and assessment guide](guides/02-requirements-and-assessment.md) gives the repository’s mapping and baseline rules.
+
+## Evidence and use workflow
+
+1. **Establish scope first.** Use [scope and applicability](guides/01-scope-and-applicability.md) to record the product or service, operator, jurisdiction, relevant dates, facts and authorised applicability decision.
+2. **Select applicable Annex I clauses.** Keep the legal text and its interpretation separate. Record the exact clause, source version, applicability rationale and unresolved questions.
+3. **Choose the assessment profile.** Record adopted standards, versions, contractual baselines, other technical requirements and specialist methods. Do not imply WCAG 2.2 A/AA is named directly by the Directive.
+4. **Map without overstating.** Use exact clause-level relationships such as supports, partially supports, contradicts or assesses. One requirement may need multiple tests; one test may inform multiple requirements.
+5. **Use outcomes as complementary evidence.** Select relevant IDSO outcomes; distinguish technical conformance, functional access, task outcomes and experience findings.
+6. **Evaluate and preserve limits.** Record test setup, task/state, release, method, sample, observation, failures, uncertainty, accessibility barriers and what the evidence cannot establish.
+7. **Route decisions to the right authority.** QA prepares assessment; authorised legal/compliance reviewers determine legal meaning and claims. Follow [evidence, conformity and claims](guides/05-evidence-conformity-and-claims.md). Do not turn a positive user outcome, standards mapping or automated pass into an EAA conformity conclusion.
+
+## Reusable agent prompts
+
+**Requirement routing**
+
+> For the identified product or service and approved jurisdictional scope, retrieve the relevant text of Directive (EU) 2019/882, including the exact Annex I clause and Article 4 route. Separate legal text from interpretation. Record applicability, source/version, technical mappings, their relationship and limits, selected methods, evidence needs and unresolved issues. Use Double-FW outcome guidance only as complementary design or research guidance. Do not decide legal applicability or approve a conformity claim.
+
+**Outcome and evidence planning**
+
+> For each applicable Annex I clause, identify the user tasks and contexts that could be affected. Select relevant IDSO outcomes with a rationale, then propose complementary technical, manual, assistive-technology, service and user-research evidence as appropriate. Keep statutory requirements, standards mappings, observed outcomes, hypotheses and recommendations distinct. State missing evidence and route legal or conformity decisions to the authorised human reviewer.
+
+## References and maintenance
+
+- [Directive (EU) 2019/882, EUR-Lex](https://eur-lex.europa.eu/eli/dir/2019/882/oj) — authoritative legal text.
+- [Inclusive Digital Service Outcome Dataset](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/Inclusive_Digital_Service_Outcome_Dataset.md) — current Double-FW Layer 2 outcome framework.
+- [Superseded Annex I training dataset migration notice](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/EAA%20Annex%201%20%E2%80%94%20Training%20Dataset%20%28Websites%20%26%20Online%20Applications%29.md) — do not use as current requirements or legal interpretation.
+- Repository-local [source register](SOURCE-REGISTER.md), [standards status](control/standards-status.yaml), scope, assessment and evidence guides determine source status and workflow.
+
+Update this matrix when the legal text, relevant national provisions, approved technical profile or linked canonical Double-FW sources change. Record the reviewed source revision and date in the change history; do not silently convert a proposed mapping into an approved legal interpretation.
