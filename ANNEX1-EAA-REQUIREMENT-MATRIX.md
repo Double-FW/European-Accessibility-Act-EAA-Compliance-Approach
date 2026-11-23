@@ -10,7 +10,7 @@ The linked [EAA Annex I training dataset in Inclusive and Effective Design](http
 
 ## Legal routing through Annex I
 
-Article 4 determines which Annex I sections apply, subject to the Directive’s scope and qualifications. In broad terms, products route to Sections I and, except self-service terminals, II; covered services route to Sections III and IV, subject to the Directive’s provisions; answering 112 emergency communications has the specific Section V route. Section VII contains functional performance criteria with its own conditions. This summary is a navigation aid; use the Directive and applicable national law for the actual decision.
+Article 4 determines which Annex I sections apply, subject to the Directive’s scope and qualifications. In broad terms, products route to Sections I and, except self-service terminals, II. Services route to Section III except urban, suburban and regional transport services, and services route to Section IV; Article 4(5) provides a service-provider microenterprise exemption from the requirements referred to in Article 4(3). Answering 112 emergency communications has the specific Section V route. Apply all qualifications and national implementation provisions. Section VII contains functional performance criteria with its own conditions. This summary is a navigation aid; use the Directive and applicable national law for the actual decision.
 
 | Internal reference | Annex I location | Requirement area | Routing note |
 | --- | --- | --- | --- |
