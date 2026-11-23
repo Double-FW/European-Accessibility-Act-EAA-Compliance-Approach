@@ -93,6 +93,6 @@ A WCAG criterion or EN 301 549 provision may support assessment of an Annex I re
 - [Directive (EU) 2019/882, EUR-Lex](https://eur-lex.europa.eu/eli/dir/2019/882/oj) — authoritative legal text.
 - [Inclusive Digital Service Outcome Dataset](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/Inclusive_Digital_Service_Outcome_Dataset.md) — current Double-FW Layer 2 outcome framework.
 - [Superseded Annex I training dataset migration notice](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/EAA%20Annex%201%20%E2%80%94%20Training%20Dataset%20%28Websites%20%26%20Online%20Applications%29.md) — do not use as current requirements or legal interpretation.
-- Repository-local [source register](SOURCE-REGISTER.md), [standards status](control/standards-status.yaml), scope, assessment and evidence guides determine source status and workflow.
+- The repository’s [standards status](control/standards-status.yaml), scope, assessment and evidence guides determine baseline status and workflow.
 
 Update this matrix when the legal text, relevant national provisions, approved technical profile or linked canonical Double-FW sources change. Record the reviewed source revision and date in the change history; do not silently convert a proposed mapping into an approved legal interpretation.
